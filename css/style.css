@@ -50,6 +50,9 @@ address > a {
   text-align: center;
   display: block;
   margin: 0 auto;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(00, 00, 00, 15%);
 }
 
 .team-section {
