@@ -168,9 +168,7 @@ address {
   flex-wrap: wrap;
   row-gap: 48px;
 }
-#our-portfolio {
-  text-align: center;
-}
+
 #our-portfolio .card-content {
   border-bottom: 1px solid #e7e9fc; /* B16 */
 }
