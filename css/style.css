@@ -7,7 +7,9 @@ body {
 }
 
 .container {
-  width: 1158px;
+  width: 1440px;
+  padding: 0 141px;
+  box-sizing: content-box;
   margin: 0 auto;
 }
 
@@ -40,6 +42,7 @@ address > a {
 
 .section:first-child {
   background-color: #2e2f42;
+  width: 100%;
 }
 
 .service-button {
@@ -123,13 +126,16 @@ a {
   padding: 24px 0;
 }
 
-.section {
+.section:not(:first-child) {
   padding: 120px 0;
 }
-
+.ulist,
+header {
+  padding: 0 141px;
+}
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 40px;
   border-bottom: 1px solid #e7e9fc; /* B13 */
@@ -155,19 +161,23 @@ address {
 
 #our-team {
   text-align: center;
+  background-color: #f4f4fd;
 }
 
 #our-portfolio .ulist {
   flex-wrap: wrap;
   row-gap: 48px;
 }
-
+#our-portfolio {
+  text-align: center;
+}
 #our-portfolio .card-content {
   border-bottom: 1px solid #e7e9fc; /* B16 */
 }
 
 #head-view {
   text-align: center;
+  padding: 188px 0px;
 }
 
 h2 {
@@ -176,6 +186,7 @@ h2 {
 
 button {
   padding: 16px 32px;
+  line-height: 1.5;
 }
 
 h1 {
