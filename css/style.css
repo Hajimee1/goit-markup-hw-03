@@ -8,7 +8,6 @@ body {
 
 .container {
   width: 1440px;
-  padding: 0 141px;
   box-sizing: content-box;
   margin: 0 auto;
 }
@@ -126,7 +125,7 @@ a {
   padding: 24px 0;
 }
 
-.section:not(:first-child) {
+section:not(:first-child) {
   padding: 120px 0;
 }
 .ulist,
